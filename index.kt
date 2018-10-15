@@ -1,5 +1,5 @@
 package lerp
 
-fun lerp(x: Float, y: Float, t: Float): Float {
+fun lerp(x: Double, y: Double, t: Double): Double {
   return x*(1-t)+y*t
 }
