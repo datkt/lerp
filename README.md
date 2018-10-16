@@ -48,7 +48,7 @@ fun toDouble(i: Int, args: Array<String>, default: Double): Double {
 
 ## API
 
-### `lerp(x: Double, y: Double, t: Double): Double`
+### `val z = lerp(x: Double, y: Double, t: Double): Double`
 
 Compute the linear interpolation between two points `x` and `y` with a
 factor of `t`.

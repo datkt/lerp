@@ -1,10 +1,10 @@
 {
-  "name": "lerp",
   "version": "0.1.0",
+  "name": "lerp",
   "description": "Simple linear interpolation function for Kotlin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "konanc . -e test.main -o test && ./test.kexe"
   },
   "author": "Joseph Werle <werle@littlstar.com>",
   "license": "MIT",
