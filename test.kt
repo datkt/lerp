@@ -1,8 +1,9 @@
-package test
+package datkt.lerp.test
 
-import lerp.*
-import tape.test
-import tape.Test
+import datkt.tape.collect
+import datkt.tape.test
+import datkt.tape.Test
+import datkt.lerp.*
 
 fun main(args: Array<String>) {
   test("lerp(Double, Double, Double) -> Double", fun(t: Test) {
@@ -13,5 +14,5 @@ fun main(args: Array<String>) {
     t.end()
   })
 
-  tape.collect()
+  collect()
 }
