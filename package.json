@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "1.0.0",
   "name": "lerp",
   "description": "Simple linear interpolation function for Kotlin",
   "main": "index.js",
