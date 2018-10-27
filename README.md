@@ -1,31 +1,23 @@
-# lerp
+datkt.lerp
+==========
 
 Simple linear interpolation function for Kotlin
 
-## Install
+## Installation
 
 ```sh
 $ npm install datkt/lerp
 ```
 
-## Compile
-
-```sh
-$ konanc .
-$ ./program.kexe
-```
-
-or more directly
-
-```sh
-$ konanc node_modules/lerp index.kt
-$ ./program.kexe
-```
-
 ## Usage
 
+```sh
+$ konanc -r node_modules/@datkt -l lerp/lerp index.kt
+$ ./program.kexe
+```
+
 ```kotlin
-import lerp.*
+import datkt.lerp.*
 
 fun main(args: Array<String>) {
   val x = toDouble(0, args, 0.123)
