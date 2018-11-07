@@ -6,13 +6,13 @@ Simple linear interpolation function for Kotlin
 ## Installation
 
 ```sh
-$ npm install datkt/lerp
+$ npm install @datkt/lerp
 ```
 
 ## Usage
 
 ```sh
-$ konanc -r node_modules/@datkt -l lerp/lerp index.kt
+$ konanc -r node_modules/@datkt/lerp -l lerp index.kt
 $ ./program.kexe
 ```
 
